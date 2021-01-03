@@ -14,7 +14,7 @@ jobs:
     - name: split Scriptable Variables package
       run: |
         git branch -d $UPM_BRANCH &> /dev/null || echo $UPM_BRANCH branch not found
-        git subtree $UPM_BRANCH -P "$PKG_ROOT" -b $UPM_BRANCH
+        git subtree split -P "$PKG_ROOT" -b $UPM_BRANCH
         git checkout $UPM_BRANCH
         if [[ -d "Samples" ]]; then
           git mv Samples Samples~
