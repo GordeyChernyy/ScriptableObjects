@@ -1,0 +1,17 @@
+{
+  "name": "com.synestheticecho.scriptable-variables",
+  "version": "0.0.1",
+  "displayName": "Scriptable Variables",
+  "description": "2019.4",
+  "dependencies": {},
+  "keywords": [
+    "architecture",
+    "editor",
+    "scriptable objects"
+  ],
+  "author": {
+    "name": "Synesthetic Echo LLC",
+    "email": "hello@synestheticecho.com",
+    "url": "http://www.synestheticecho.com"
+  }
+}
